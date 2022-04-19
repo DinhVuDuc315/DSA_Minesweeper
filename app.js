@@ -2,7 +2,7 @@ document.addEventListener('DOMcontentLoaded',()=>{
 const grid = document.querySelector('grid')
 
 let width=10
-
+let square=[]
 
 //create board
 
