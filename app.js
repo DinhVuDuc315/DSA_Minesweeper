@@ -1,17 +1,17 @@
-document.addEventListener('DOMcontentLoaded',()=>{
-const grid = document.querySelector('grid')
+document.addEventListener('DOMcontentLoaded',() => {
+const grid = document.querySelector('.grid')
 
 let width=10
-let square=[]
+let squares =[]
 
 //create board
 
 function createBoard(){
-    for(let i=0;i<Width*width;i++){
+    for(let i=0;i < Width*width;i++){
       const square = document.createElement('div')
       square.setAttribute('id',i)
       grid.appendChild(square)
-      square.push(square)
+      squares.push(square)
     }
 }
 createBoard()
