@@ -1,0 +1,18 @@
+.container {
+    position: relative;
+    width: 50%;
+  }
+.container img {
+    width: 100%;
+    height: auto;
+}
+.container .container-them {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+.container .container-them .a{
+    color:white;
+}
+
