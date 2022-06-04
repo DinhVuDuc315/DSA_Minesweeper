@@ -1,33 +1,31 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Minesweeper</title>
-    <link rel="stylesheet" href="style.css" />
-    <link />
-    <script src="app.js" charset="utf-8"></script>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div class="app">
-      <div class="container">
-        <div style class="grid"></div>
-        <div>Flags left: <span id="flags-left"></span></div>
-        <div id="result"></div>
-      </div>
-    </div>
-    <div class="buttons">
-      <ul style="list-style-type: none">
-        <li><button type="button" onclick="restart()">Restart</button></li>
-        <li><button type="button">
-          <a href="./home.html">Exit</a>
-        </button></li>
-        <li><button type="button">Undo</button></li>
-        <li><button type="button">Redo</button></li>
-      </ul>
-    </div>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <title>Minesweeper</title>
+  <link rel="stylesheet" href="style.css"></link>
+  <script src="app.js" charset="utf-8"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container">
+    <button> <a href="./index.html">reset game</a></button>
+    <button id="extra1"> extra1</button>
+    <button id="extra2"> extra2</button>
+    <button id="undo_flag"> undo flag</button>
+    <button id="redo_flag"> redo flag</button>
+    <select  id="level">
+      <option id="easy" value="easy">Easy</option>
+      <option id="medium" value="medium">Medium</option>
+      <option id="hard" value="hard">Hard</option>
+    </select>
+
+    <button id="check">comfirm level</button>
+    
+    <div class="grid" id="game"></div>
+    <div>Flags left: <span id='flags-left'></span></div>
+    <div id="result"></div>
+  </div>
+</body>
 </html>
