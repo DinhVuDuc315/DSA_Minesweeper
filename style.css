@@ -2,10 +2,20 @@
   width: 500px;
   align-content: center;
 }
-
+.easy{
+  height: 400px !important;
+  width: 400px !important;
+}
+.medium{
+  height: 480px !important;
+  width: 480px !important;
+}
+.hard{
+  height: 520px !important;
+  width: 520px !important;
+}
 .grid {
-  height: 400px;
-  width: 400px;
+
   display: flex;
   flex-wrap: wrap;
   background-color: #dcd6bc;
