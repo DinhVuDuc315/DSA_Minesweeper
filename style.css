@@ -18,10 +18,10 @@
 
   display: flex;
   flex-wrap: wrap;
-  background-color: #dcd6bc;
+  background-color: #a9cde1;
   margin-left: 50px;
   margin-top: 20px;
-  border: 10px solid #dcd6bc;
+  border: 10px solid #90c4d2;
   margin-bottom: 10px;
 }
 .buttons {
